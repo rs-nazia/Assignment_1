@@ -1,0 +1,30 @@
+section
+{
+    background-image: url("Assets/Hero-bg.png");
+    margin: 0px;
+    max-width: 1440px;
+    height: 698px;
+}
+nav
+{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    height: 151px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav button{
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+}
+
+nav h1{
+    font-size: 34px;
+    font-weight: bolder;
+}
