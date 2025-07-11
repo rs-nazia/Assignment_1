@@ -6,7 +6,10 @@
   font-style: normal;
 }
 
-
+*{
+    font-family: "Raleway", sans-serif;
+    
+}
 
 .section1
 {
@@ -127,6 +130,45 @@ nav h1{
     justify-content: space-around;
 }
 
+
+.testimonial{
+    max-width: 1140px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.testi-section{
+    font-size: 42px;
+    text-align: center;
+    align-items: center;
+    
+}
+.testi-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testi-box{
+    max-width: 365px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 24px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
 .section4{
     max-width: 1140px;
     height: 696px;
@@ -188,6 +230,10 @@ nav h1{
     padding-left: 15px;
     
 }
+.section5_div label{
+    font-size: 18px;
+    font-weight: 500;
+}
 
 .section5_div button{
     width: 497px;
@@ -210,7 +256,8 @@ nav h1{
     color: #4E47FF;
 }
 
-.section6 ul{
-    display: flex;
+.section6 li{
+    display: inline-block;
+    padding-left: 10px;
     
 }
