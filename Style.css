@@ -162,3 +162,55 @@ nav h1{
 .section4_div p{
     text-align: center;
 }
+
+.section5{
+    margin: 0px;
+    height: 696px;
+    background-color:rgba(51, 45, 236, 0.1);
+    align-content: center; 
+    justify-content: space-between;   
+}
+.section5_div{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin:auto;
+}
+.section5_div h1{
+    font-size: 97px;
+}
+.section5_div input{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border-color: #D6DDED;
+    border: 0px;
+    padding-left: 15px;
+    
+}
+
+.section5_div button{
+    width: 497px;
+    height: 62px;
+    margin-top: 20px;
+}
+.form{
+    justify-content: center;
+    
+}
+.section6{
+    max-width: 1440px;
+    height: 428px;
+    text-align: center;
+}
+
+.section6 h1{
+    display: block;
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+.section6 ul{
+    display: flex;
+    
+}
